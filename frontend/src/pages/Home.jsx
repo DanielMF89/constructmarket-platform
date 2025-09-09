@@ -78,7 +78,7 @@ const Home = () => {
       <section>
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            ¿Por qué elegir ConstructMarket?
+            ¿Por qué elegir Topke MarkePlace?
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Somos la plataforma más confiable para transacciones de maquinaria de construcción
@@ -151,7 +151,7 @@ const Home = () => {
           ¿Listo para comenzar?
         </h2>
         <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-          Únete a miles de usuarios que ya confían en ConstructMarket para sus necesidades de maquinaria
+          Únete a miles de usuarios que ya confían en Topke MarkePlace para sus necesidades de maquinaria
         </p>
         <Link to="/register">
           <Button size="lg" className="bg-orange-600 hover:bg-orange-700">
