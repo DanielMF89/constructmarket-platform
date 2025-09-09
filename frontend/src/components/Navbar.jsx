@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Construction className="h-8 w-8 text-orange-600" />
-            <span className="text-xl font-bold text-gray-800">ConstructMarket</span>
+            <span className="text-xl font-bold text-gray-800">Topke MarkePlace</span>
           </Link>
 
           {/* Navigation Links */}

@@ -58,7 +58,7 @@ const Login = () => {
             Iniciar Sesión
           </h2>
           <p className="mt-2 text-sm text-gray-600">
-            Accede a tu cuenta de ConstructMarket
+            Accede a tu cuenta de Topke MarkePlace
           </p>
         </div>
 

@@ -57,7 +57,7 @@ const Dashboard = () => {
     <div className="space-y-6">
       <div>
         <h1 className="text-3xl font-bold text-gray-800">Mi Panel</h1>
-        <p className="text-gray-600">Gestiona tu perfil y actividad en ConstructMarket</p>
+        <p className="text-gray-600">Gestiona tu perfil y actividad en Topke MarkePlace</p>
       </div>
 
       {/* User Profile Card */}

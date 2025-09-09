@@ -94,7 +94,7 @@ const Register = () => {
             Crear Cuenta
           </h2>
           <p className="mt-2 text-sm text-gray-600">
-            Únete a ConstructMarket y comienza a comprar, vender o rentar equipos
+            Únete a Topke MarkePlace y comienza a comprar, vender o rentar equipos
           </p>
         </div>
 
