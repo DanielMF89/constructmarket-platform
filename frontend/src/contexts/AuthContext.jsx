@@ -15,7 +15,20 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(localStorage.getItem('token'))
   const [loading, setLoading] = useState(true)
 
-  const API_BASE_URL = 'http://localhost:5000/api'
+  // Detectar automáticamente la URL base
+const getApiBaseUrl = ( ) => {
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname
+    if (hostname.includes('preview.app.github.dev')) {
+      // Estamos en Codespaces
+      return `https://${hostname.replace('-5173', '-5000' )}/api`
+    }
+  }
+  return 'http://localhost:5000/api'
+}
+
+const API_BASE_URL = getApiBaseUrl( )
+
 
   useEffect(() => {
     if (token) {
